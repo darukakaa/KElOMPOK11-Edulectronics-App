@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Edulectronic">
         <activity
+            android:name=".BAB1"
+            android:exported="true" />
+        <activity
+            android:name=".daftarisi"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
