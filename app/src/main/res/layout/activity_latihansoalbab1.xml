@@ -271,7 +271,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android.id="@+id/button_proses"
+                android:id="@+id/button_proses"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
