@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KElOMPOK11EdulectronicsApp">
         <activity
+            android:name=".Videorangkumanmateri"
+            android:exported="true" />
+        <activity
+            android:name=".Bab3"
+            android:exported="true" />
+        <activity
+            android:name=".Bab2"
+            android:exported="true" />
+        <activity
+            android:name=".Bab1"
+            android:exported="true" />
+        <activity
             android:name=".informasi"
             android:exported="true" />
         <activity

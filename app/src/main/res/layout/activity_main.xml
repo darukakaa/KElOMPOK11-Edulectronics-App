@@ -84,7 +84,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintVertical_bias="0.80"
         app:layout_constraintHorizontal_bias="0.5"
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="636dp"/>
@@ -99,7 +99,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80"
+        app:layout_constraintVertical_bias="0.90"
         app:layout_constraintHorizontal_bias="0.5"
         tools:layout_editor_absoluteX="244"
         tools:layout_editor_absoluteY="636"/>

@@ -1,10 +1,307 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/bg"
     tools:context=".Bab2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAB 2  HUKUM OHM"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hukum Ohm adalah Hukum dasar yang menyatakan hubungan antara Arus Listrik (I), Tegangan (V) dan Hambatan (R). Hukum Ohm dalam bahasa Inggris disebut dengan “Ohm’s Laws”. Hukum Ohm pertama kali diperkenalkan oleh seorang fisikawan Jerman yang bernama Georg Simon Ohm (1789-1854) pada tahun 1825. Georg Simon Ohm mempublikasikan Hukum Ohm tersebut pada Paper yang berjudul “The Galvanic Circuit Investigated Mathematically” pada tahun 1827.
+Bunyi Hukum OHM yaitu :“Besar arus listrik (I) yang mengalir melalui sebuah penghantar atau Konduktor akan berbanding lurus dengan beda potensial /tegangan (V) yang diterapkan kepadanya dan berbanding tersbalik dengan hambatannya (R)”.
+Hukum Ohm dapat dirumuskan menjadi persamaan seperti dibawah ini :
+"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V = I x R"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I = V / R"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R = V / I"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="4.0"
+        app:srcCompat="@drawable/ohm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V = Voltage (Beda Potensial atau Tegangan yang satuan unitnya adalah Volt (V)
+ I = Current (Arus Listrik yang satuan unitnya adalah Ampere (A)
+R = Resistance (Hambatan atau Resistansi yang satuan unitnya adalah Ohm (Ω)
+Dalam perhitungan rumus Hukum Ohm, satuan unit yang dipakai adalah Volt, Ampere dan Ohm. Jika menggunakan unit lainnya seperti milivolt, kilovolt, miliampere, megaohm ataupun kiloohm, maka perlu melakukan konversi ke unit Volt, Ampere dan Ohm terlebih dahulu untuk mempermudahkan perhitungan dan juga untuk mendapatkan hasil yang benar.
+ Dari Rangkaian Elektronika yang sederhana diatas dapat membandingkan Teori Hukum Ohm dengan hasil yang didapatkan dari Praktikum dalam hal menghitung Arus Listrik (I), Tegangan (V) dan Resistansi/Hambatan (R).
+"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.	Arus Listrik (I)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arus listrik adalah banyaknya muatan listrik yang disebabkan dari pergerakan elektron-elektron, mengalir melalui suatu titik dalam sirkuit listrik tiap satuan waktu. Arus listrik dapat  diukur dalam satuan Coulomb/detik atau Ampere. Arus listrik merupakan satu dari tujuh satuan pokok dalam satuan internasional. Satuan internasional untuk arus listrik adalah Ampere (A). Definisi arus listrik yang mengalir dari kutub positif (+) ke kutub negatif(-)  baterai  (kebalikan arah untuk gerakan elektronnya). Rumus yang digunakan untuk menghitung arus listrik adalah "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I = V / R"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.	Tegangan (V)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tegangan listrik adalah perbedaan potensial listrik antara dua titik dalam rangkaian listrik, dan dinyatakan dalam satuan volt. Besaran ini mengukur energi potensial dari sebuah medan listrik yang mengakibatkan adanya aliran listrik dalam sebuah konduktor listrik. Alat yang dipergunakan untuk mengukur besar tegangan listrik, antara lain: voltmeter, dan osiloskop. Voltmeter bekerja dengan cara mengukur arus dalam sirkuit ketika dilewatkan melalui resistor dengan nilai tertentu. Sesuai hukum Ohm, besar tegangan sebanding dengan besar arus untuk nilai resistansi sama. . Rumus yang digunakan untuk menghitung tegangan ada "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V = I x R "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.	Resistensi / Hambatan (R)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hambatan listrik adalah perbandingan antara tegangan listrik dari suatu komponen elektronik (misalnya resistor) dengan arus listrik yang melewatinya. Jembatan Wheatstone adalah alat ukur yang ditemukan oleh Samuel Hunter Christie pada 1833 dan meningkat kemudian dipopulerkan oleh Sir Charles Wheatstone pada tahun 1843. Ini digunakan untuk mengukur suatu yang tidak diketahui hambatan listrik dengan menyeimbangkan dua kali dari rangkaian jembatan, satu kaki yang mencakup komponen diketahui kerjanya mirip dengan aslinya potensiometer. Jembatan Wheatstone adalah suatu proses menentukan nilai hambatan listrik yang presisi/tepat menggunakan rangkaian Jembatan Wheatstone dan melakukan perbandingan antara besar hambatan yang telah diketahui dengan besar hambatan yang belum diketahui yang tentunya dalam keadaan Jembatan disebut seimbang yaitu Galvanometer menunjukkan pada angka nol. . Rumus yang digunakan untuk menghitung resistensi/hambatan yaitu :"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R = V / I"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hambatan dibagi mejadi 2 rangkaian yaitu : "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A. Hambatan Seri "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hambatan seri hanyalah menghubungkan bagian keluaran salah satu resistor dengan bagian masukan resistor lain dalam sebuah rangkaian. Setiap resistor tambahan yang ditambahkan di dalam rangkaian dijumlahkan dengan hambatan total rangkaian itu. Rumus untuk menghitung hambatan seri adalah "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RTotal = R1 + R2+…..Rn"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B. Hambatan Paralel"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hambatan paralel adalah saat bagian masukan dua resistor atau lebih dihubungkan, dan bagian keluaran resistor itu dihubungkan. Rumus yang digunakan untuk menghitung hambatan paralel adalah "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RTotal = 1/{(1/R1)+(1/R2)+(1/R3)…+(1/Rn)}"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C. Hambatan Seri dan Paralel"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rangkaian kombinasi adalah kombinasi rangkaian seri dan paralel apapun yang dirangkai dalam satu rangkaian. "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
