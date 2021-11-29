@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Edulectronic/app/src/main/res/layout/activity_bab1.xml" value="0.184375" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Edulectronic/app/src/main/res/layout/activity_daftarisi.xml" value="0.10520833333333333" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Edulectronic/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Edulectronic/app/src/main/res/layout/daftarisi.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Edulectronic/app/src/main/res/layout/relative_demo.xml" value="0.184375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_daftarisi.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_informasi.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_main.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/LENOVO/Documents/KElOMPOK11-Edulectronics-App/app/src/main/res/layout/activity_bab1.xml" value="0.12047101449275362" />
+        <entry key="..\:/Users/LENOVO/Documents/KElOMPOK11-Edulectronics-App/app/src/main/res/layout/activity_bab3.xml" value="0.9637096774193549" />
+        <entry key="..\:/Users/LENOVO/Documents/KElOMPOK11-Edulectronics-App/app/src/main/res/layout/activity_main.xml" value="0.12047101449275362" />
       </map>
     </option>
   </component>

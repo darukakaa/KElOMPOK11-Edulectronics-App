@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@color/bg"
+    tools:context=".informasi">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/daftarisi"
+        android:text="@string/infrms"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,118 +19,125 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0"
-        app:layout_constraintHorizontal_bias="0.5"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="70dp" />
+        app:layout_constraintHorizontal_bias="0.5"/>
 
 
-    <Button
-        android:id="@+id/bab1"
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bab1"
+        android:text="NAMA APLIKASI : EDULECTRONICS APP"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TANGGAL RILIS : 24 OKTOBER 2021"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.20"
-        app:layout_constraintHorizontal_bias="0.16"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <Button
-        android:id="@+id/b1kom"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/kompelktro"
+        android:text="PENYUSUN:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27"
-        app:layout_constraintHorizontal_bias="0.6"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
-    <Button
-        android:id="@+id/b1an"
+        app:layout_constraintVertical_bias="0.30"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/analisis"
+        android:text="ERYKA PUTRU SUSANTI"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.34"
-        app:layout_constraintHorizontal_bias="0.5"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <Button
-        android:id="@+id/b2"
+        app:layout_constraintVertical_bias="0.36"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bab2"
+        android:text="DARUJATA KAKAMARDA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
-        app:layout_constraintHorizontal_bias="0.16"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="360dp" />
-
-    <Button
-        android:id="@+id/b2ohm"
+        app:layout_constraintVertical_bias="0.40"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hukumohm"
+        android:text="DIMAS HABIB AL RASYID"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52"
-        app:layout_constraintHorizontal_bias="0.27"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <Button
-        android:id="@+id/b2seri"
+        app:layout_constraintVertical_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resistensiseri"
+        android:text="MATERI : ELEKTRONIKA DASAR"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59"
-        app:layout_constraintHorizontal_bias="0.37"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <Button
-        android:id="@+id/b3"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bab3"
+        android:text="UNIVERSITAS NEGERI SURABAYA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.70"
-        app:layout_constraintHorizontal_bias="0.16"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="498dp" />
-    <Button
-        android:id="@+id/b3sir"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sirkuittegangan"
+        android:text="PENDIDIKAN TEKNOLOGI INFORMASI"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78"
-        app:layout_constraintHorizontal_bias="0.37"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintVertical_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.5"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

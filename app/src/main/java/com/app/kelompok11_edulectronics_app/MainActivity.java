@@ -1,4 +1,4 @@
-package com.edulectronic.app;
+package com.app.kelompok11_edulectronics_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,22 +8,20 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button materi;
-    private Button informasi;
-    private Button home;
 
+    private Button daftarisi;
+    private Button informasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        materi = (Button) findViewById(R.id.materi);
-        materi.setOnClickListener(new View.OnClickListener() {
+        daftarisi = (Button) findViewById(R.id.daftarisi);
+        daftarisi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opendaftarisi();
-
             }
         });
         informasi = (Button) findViewById(R.id.informasi);
@@ -33,25 +31,16 @@ public class MainActivity extends AppCompatActivity {
                 openinformasi();
             }
         });
-        home = (Button) findViewById(R.id.home);
-        home.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMainactivity();
-            }
-        }));
+
     }
     public void opendaftarisi(){
         Intent intent = new Intent(this, daftarisi.class);
         startActivity(intent);
     }
     public void openinformasi(){
-        Intent intent = new Intent(this, Informasi.class);
+        Intent intent = new Intent(this, informasi.class);
         startActivity(intent);
     }
-    public void openMainactivity(){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
+
 
 }
