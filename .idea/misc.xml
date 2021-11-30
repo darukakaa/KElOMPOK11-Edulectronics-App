@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2638888888888889" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_bab1.xml" value="0.17579250720461095" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_bab2.xml" value="0.1" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_bab3.xml" value="0.264" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_daftarisi.xml" value="0.23505434782608695" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_latihan_bab1.xml" value="0.1" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_latihan_bab2.xml" value="0.23007246376811594" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_latihan_bab3.xml" value="0.2368659420289855" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_latihansoalbab1.xml" value="0.4" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_result_bab1.xml" value="0.1" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_result_bab2.xml" value="0.23007246376811594" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_result_bab3.xml" value="0.2368659420289855" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2078804347826087" />
+        <entry key="..\:/Pictures/MATKUL S3/Pemrogaman Mobile/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_videorangkumanmateri.xml" value="0.4" />
         <entry key="..\:/Pictures/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_bab1.xml" value="0.20123711340206185" />
         <entry key="..\:/Pictures/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_daftarisi.xml" value="0.21331521739130435" />
         <entry key="..\:/Pictures/Test+KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_informasi.xml" value="0.21331521739130435" />
@@ -20,8 +35,6 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_informasi.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_main.xml" value="0.10666666666666667" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/KElOMPOK11EdulectronicsApp/app/src/main/res/layout/activity_videorangkumanmateri.xml" value="0.1375" />
-        <entry key="..\:/Users/LENOVO/Documents/KElOMPOK11-Edulectronics-App/app/src/main/res/layout/activity_informasi.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/LENOVO/Documents/KElOMPOK11-Edulectronics-App/app/src/main/res/layout/activity_latihansoalbab1.xml" value="0.1" />
       </map>
     </option>
   </component>

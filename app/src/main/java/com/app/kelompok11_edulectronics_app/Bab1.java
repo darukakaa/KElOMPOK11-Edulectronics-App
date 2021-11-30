@@ -8,21 +8,21 @@ import android.view.View;
 import android.widget.Button;
 
 public class Bab1 extends AppCompatActivity {
-    private Button ltslbab1;
+    private Button latbab1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bab1);
 
-        ltslbab1 = (Button) findViewById(R.id.ltslbab1);
-        ltslbab1.setOnClickListener(new View.OnClickListener() {
+        latbab1 = (Button) findViewById(R.id.latbab1);
+        latbab1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { openlatsol1(); }
+            public void onClick(View view) { openlat1(); }
         });
     }
-    public void openlatsol1(){
-        Intent intent = new Intent(this, LatihanSoalBab1.class);
+    public void openlat1(){
+        Intent intent = new Intent(this, LatihanBab1.class);
         startActivity(intent);
     }
 }

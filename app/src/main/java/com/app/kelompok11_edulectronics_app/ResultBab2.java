@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ResultBab1 extends AppCompatActivity {
+public class ResultBab2 extends AppCompatActivity {
 
     TextView txt_nilai,txt_comment;
     Button cobalagi;
@@ -16,7 +16,7 @@ public class ResultBab1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result_bab1);
+        setContentView(R.layout.activity_result_bab2);
 
         txt_nilai = findViewById(R.id.txt_nilai);
         txt_comment = findViewById(R.id.txt_comment);
@@ -36,7 +36,7 @@ public class ResultBab1 extends AppCompatActivity {
         cobalagi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent (ResultBab1.this, LatihanBab1.class);
+                Intent i = new Intent (ResultBab2.this, LatihanBab2.class);
                 startActivity(i);
                 finish();
             }

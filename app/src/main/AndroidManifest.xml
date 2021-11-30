@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KElOMPOK11EdulectronicsApp">
         <activity
+            android:name=".ResultBab3"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanBab3"
+            android:exported="false" />
+        <activity
+            android:name=".ResultBab2"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanBab2"
+            android:exported="false" />
+        <activity
+            android:name=".ResultBab1"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanBab1"
+            android:exported="false" />
+        <activity
             android:name=".Videorangkumanmateri"
             android:exported="true" />
         <activity
@@ -28,7 +46,7 @@
             android:name=".daftarisi"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +54,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

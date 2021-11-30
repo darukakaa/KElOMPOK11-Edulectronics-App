@@ -726,13 +726,20 @@ Tegangan kerja / jatuh tegangan pada sebuah menurut warna yang dihasilkan:"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-
-
-
-
-
-
-
+    <Button
+        android:id="@+id/latbab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorbutton"
+        android:text="Latihan Soal Bab 3"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
 
 
 </LinearLayout>
